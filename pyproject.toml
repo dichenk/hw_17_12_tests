@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "hw-17-12-tests"
+version = "0.1.0"
+description = ""
+authors = ["dichenk"]
+readme = "README.md"
+packages = [{include = "hw_17_12_tests"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
